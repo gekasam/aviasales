@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './index.scss';
-import App from './App';
+import classes from './index.module.scss';
+import AviasalesApp from './components/AviasalesApp';
+
+console.log(classes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AviasalesApp />
   </React.StrictMode>
 );
